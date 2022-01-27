@@ -1,9 +1,16 @@
 
+#:set x 100
+
+#:import o os
 
 Button:
-    text: "Clique Aqui"
+    text: str(x)
 
     Button:
     
         text:"Segundo botão"
+        
+        Button:
+            text: o.getcwd()
+        
     
