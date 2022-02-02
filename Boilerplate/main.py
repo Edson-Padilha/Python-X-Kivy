@@ -11,3 +11,9 @@ Config.set("graphics", "fullscrean", "0")
 
 janela = none
 glayout = none 
+
+class JanelaApp(App):
+    pass
+
+janela = JanelaApp()
+janela.run()
